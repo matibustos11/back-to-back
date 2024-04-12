@@ -689,6 +689,14 @@
         width: 70%;
     }
 
+    .biografia1 p, .biografia2 p, .biografia3 p {
+        font-size: 0.8rem;
+    }
+
+    .biografia1 img, .biografia2 img {
+        height: 11rem;
+    }
+
     .footer h4 {
         font-size: 0.9rem;
     }
@@ -750,6 +758,20 @@
 
     .programas h3 {
         font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 450px){
+
+    
+    .biografia1 {
+        flex-direction: column-reverse;
+    }
+
+    .biografia2 {
+        flex-direction: column;
     }
 
 }
