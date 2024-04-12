@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 /*-------------HEADER------------*/
 
 
@@ -26,16 +28,21 @@
 }
 
 
-header h1 {
-    height: 6.25rem;
+.titulo {
+    height: 13rem;
+    background-color: #95e75f;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.titulo h1{
     font-size: 5rem;
-    font-family: "Madimi One", sans-serif;
+    font-family: "Secular One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    background-color: #95e75f;
     color: white;
-    padding: 6.25rem;
+    text-align: center;
 }
 
 .navbar-nav{
@@ -51,7 +58,7 @@ header h1 {
 /*----------------------------------------------------------------------INDEX MAIN---------------------------------------------*/
 
 .background{
-    background-image: url(https://i.pinimg.com/originals/c9/72/db/c972db15a06daf760ad0f74496ddbc87.jpg);
+    background-image: url(../img/background.jpeg);
     position: fixed;
     top: 0;
     left: 0;
@@ -122,7 +129,7 @@ header h1 {
 
 .programas{
     margin: 1.9rem;
-    background-image: url(https://st.depositphotos.com/1062035/5107/i/450/depositphotos_51076827-stock-photo-fitness-with-dumbbells.jpg);
+    background-image: url(../img/programas-bckg.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -350,12 +357,11 @@ header h1 {
 .nutricion-definicion img {
     padding: 1.25rem;
     width: 100%;
-    height: 31.25rem;
 }
 
 .nutricion-definicion p {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .nuestros-servicios h2 {
@@ -377,6 +383,13 @@ header h1 {
     object-fit: cover;
   }
 
+  .carousel-caption h5 {
+    color: #000000;
+    font-size: 2rem;
+    text-shadow: 1px 1px;
+    display: block !important;
+}
+
 
 
 
@@ -385,20 +398,20 @@ header h1 {
 .biografia1 {
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .biografia1 img {
-    height: 500px;
-    width: 400px;
-    margin-top: 50px;
+    height: 29rem;
 
 }
 
 .biografia1 p {
-    margin: 50px;
-    font-size: 40px;
-    color: #5da0b0;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -407,39 +420,39 @@ header h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .biografia2 img {
-    height: 500px;
-    width: 800px;
-    margin-top: 50px;
+    height: 28rem;
 
 }
 
 .biografia2 p {
-    margin: 50px;
-    font-size: 40px;
-    color: #114dbc;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .biografia3 {
     display: flex;
-    justify-content: space-around;
-    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .biografia3 iframe {
-    margin-top: 10%;
+    margin-bottom: 2rem;
 }
 
 .biografia3 p {
-    width: 50%;
-    margin: 50px;
-    font-size: 30px;
-    color: #0fb7a9;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -489,6 +502,10 @@ header h1 {
     .novedades {
         height: 42rem;
     }
+
+    .biografia1 p, .biografia2 p, .biografia3 p {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 990px) {
@@ -519,7 +536,10 @@ header h1 {
     .item p {
         font-size: 1.1rem;
     }
-    
+
+    .biografia1 img, .biografia2 img {
+    height: 20rem;
+    }
 }
 
 @media (max-width: 770px){
@@ -539,13 +559,18 @@ header h1 {
         font-size: 1.2rem;
     }
 
-    header h1{
+    .titulo h1{
         font-size: 4rem;
     }
 
     .div-novedades h3{
         font-size: 1.2rem;
     }
+
+    .nutricion-definicion p {
+        font-size: 1.5rem;
+    }
+    
 
     .suplementacion img {
         width: 87%;
@@ -572,10 +597,29 @@ header h1 {
     }
 
 
+
+    .carousel-caption h5 {
+        font-size: 1.8rem; 
+      }
+
+      .biografia1 p, .biografia2 p, .biografia3 p {
+        font-size: 1rem;
+    }
+
+    .biografia1 img, .biografia2 img {
+        height: 15rem;
+    }
+
+
 }
 
 @media (max-width: 695px){
-    header h1 {
+
+    .titulo {
+        height: 11rem;
+    }
+
+    .titulo h1 {
         font-size: 3.5rem;
     }
 
@@ -603,11 +647,15 @@ header h1 {
         font-size: 2rem;
         margin-top: 20px;
     }
+
+    .carousel-item img {
+        height: 400px;
+    }
 }
 
 @media (max-width: 600px){
 
-    header h1 {
+    .titulo h1 {
         font-size: 3rem;
     }
 
@@ -665,6 +713,10 @@ header h1 {
 }
 
 @media (max-width: 520px){
+    .titulo {
+        height: 10rem;
+    }
+
     .grid-col1{
         display: none;
     }
@@ -677,11 +729,15 @@ header h1 {
         width: 100%;
     }
 
+    .carousel-item img {
+        height: 400px;
+    }
+
 }
 
 
 @media (max-width: 500px){
-    header h1 {
+    .titulo h1 {
         font-size: 2.5rem;
     }
 
@@ -701,7 +757,7 @@ header h1 {
 
 @media (max-width:400px){
 
-    header h1 {
+    .titulo h1 {
         font-size: 2rem;
     }
 
@@ -750,6 +806,16 @@ header h1 {
     .curso-padel {
         padding: 0;
     }
+
+    .nutricion-definicion p {
+        font-size: 1rem;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+
 
     .footer2 {
         margin-right: 0rem;
