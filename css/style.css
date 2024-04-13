@@ -20,6 +20,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999999;
 }
 
 .barra img {
@@ -75,7 +76,7 @@
     display: flex;
     align-items: center;
     margin-top: 6.25rem;
-    background-image: url(https://i.pinimg.com/736x/dd/8f/31/dd8f31ea0f921a5b42d7e5fde9c25917.jpg);
+    background-image: url(https://img.freepik.com/fotos-premium/gimnasio-oscuro-luces-rojas-fondo-negro_876956-1224.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -118,7 +119,7 @@
 }
 
 .a-quien p {
-    margin: 1.9rem;
+    margin: 0.9rem 1.9rem;
     font-size: 1.9rem;
     color: rgba(255, 255, 255, 0.9);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -133,14 +134,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 50px;
 
 }
 
 
 .programas h2{
+    padding-top: 2rem;
     text-align: center;
     font-size: 2.5rem;
-    color: yellow;
+    color: #5eff1e;
+    font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -157,7 +161,7 @@
 }
 
 .personalizados h3{
-    color: aquamarine;
+    color: #c1ff0d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -169,7 +173,7 @@
 }
 
 .deportivos h3{
-    color: aquamarine;
+    color: #c1ff0d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -186,7 +190,7 @@
 }
 
 .lesiones h3{
-    color: aquamarine;
+    color: #c1ff0d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -198,7 +202,7 @@
 }
 
 .fisio h3{
-    color: aquamarine;
+    color: #c1ff0d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -216,13 +220,14 @@
 .novedades {
 
     height: 24.4rem;
-    background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://us.123rf.com/450wm/naropano/naropano1606/naropano160600509/58727522-textura-de-fondo-oscuro-en-blanco-para-el-dise%C3%B1o-bordes-oscuros.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .novedades h2{
+    padding-top: 2rem;
     text-align: center;
     font-size: 2.5rem;
     color: #5eff1e;
@@ -242,6 +247,7 @@
 .suplementacion {
     border: #000000 4px solid;
     padding: 0.9rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,6 +272,7 @@
     align-items: center;
     border: #000000 4px solid;
     padding: 0.9rem;
+    border-radius: 1rem;
 }
 
 .psicologia img {
@@ -286,6 +293,7 @@
     align-items: center;
     border: #000000 4px solid;
     padding: 0.9rem;
+    border-radius: 1rem;
 }
 
 .curso-padel img {
@@ -320,7 +328,6 @@
     align-items: center;
     justify-content: center;
     border: none;
-    color: white;
     text-align: center;
 
 }
@@ -333,15 +340,23 @@
 }
 
 .item h3{
-    color: rgb(21, 13, 62);
+    color: rgb(255 214 0);
     font-size: 2.5rem;
     border: none;
+    text-shadow: 1px 1px 1px;
 }
 
 .item p{
-    color: rgb(71, 2, 2);
+    color: white;
     font-size: 1.25rem;
     border: none;
+}
+
+.grid-texto{
+    background: #181515;
+    opacity: 0.8;
+    border-radius: 2rem;
+    z-index: -1;
 }
 
 
@@ -362,13 +377,18 @@
 .nutricion-definicion p {
     color: white;
     font-size: 2rem;
+    background: #181515;
+    opacity: 0.8;
+    z-index: -2;
 }
 
 .nuestros-servicios h2 {
-    margin: 1.9rem;
+    padding-top: 2rem;
     text-align: center;
-    color: rgba(32, 246, 32, 0.885);
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    color: #5eff1e;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -404,15 +424,18 @@
 
 .biografia1 img {
     height: 29rem;
+    border-radius: 6rem;
 
 }
 
 .biografia1 p {
     font-size: 2rem;
     color: white;
-    text-shadow: 1px 1px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    opacity: 0.8;
+    border-radius: 1rem;
 }
 
 .biografia2 {
@@ -425,15 +448,18 @@
 
 .biografia2 img {
     height: 28rem;
+    border-radius: 6rem;
 
 }
 
 .biografia2 p {
     font-size: 2rem;
     color: white;
-    text-shadow: 1px 1px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    opacity: 0.8;
+    border-radius: 1rem;
 }
 
 .biografia3 {
@@ -451,9 +477,31 @@
 .biografia3 p {
     font-size: 2rem;
     color: white;
-    text-shadow: 1px 1px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    opacity: 0.8;
+    border-radius: 1rem;
+}
+
+/*-------------------------------------------------PAGINA CONTACTO---------------------------------------------------------*/
+
+.contactanos p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background: black;
+    opacity: 0.8;
+}
+
+
+.formulario {
+    margin: 2rem 10rem;
+}
+
+.formulario label {
+    color: white;
 }
 
 
@@ -609,6 +657,10 @@
         height: 15rem;
     }
 
+    .formulario {
+        margin: 2rem 5rem;
+    }
+
 
 }
 
@@ -697,6 +749,10 @@
         height: 11rem;
     }
 
+    .contactanos p {
+        font-size: 1.5rem;
+    }
+
     .footer h4 {
         font-size: 0.9rem;
     }
@@ -738,6 +794,14 @@
 
     .carousel-item img {
         height: 400px;
+    }
+
+    .formulario {
+        margin: 2rem 2rem;
+    }
+
+    .contactanos p {
+        font-size: 1.3rem;
     }
 
 }
@@ -795,9 +859,6 @@
         margin: 0.9rem;
     }
 
-    .programas h3 {
-        font-size: 0.9rem;
-    }
 
     .novedades {
         height: 50rem;
@@ -834,6 +895,14 @@
 
     .carousel-item img {
         height: 250px;
+    }
+
+    .contactanos p {
+        font-size: 1.1rem;
+    }
+
+    .formulario {
+        margin: 2rem 1rem;
     }
 
 

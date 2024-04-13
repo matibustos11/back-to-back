@@ -46,7 +46,7 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="contactanos">
         <p>
           Back to Back está siempre dispuesto a recibir nuevos integrantes en
           nuestra familia, anímate a redescubrir tu fuerza física y mental, y
@@ -56,39 +56,36 @@
           trabajar y alcanzar tu máximo potencial.
         </p>
       </section>
+      <div class="formulario">
+        <form action="#" method="POST" class="bg-dark bg-opacity-75 border p-4 rounded">
 
-      <section>
-        <form action="" method="" enctype="">
-          <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" />
+          <div class="mb-3">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" class="form-control" name="nombre" id="nombre" />
           </div>
 
-          <div>
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" />
-          </div>
-
-          <div>
+          <div class="mb-3">
             <label for="telefono">Teléfono:</label>
-            <input type="text" id="telefono" />
+            <input type="number" class="form-control" name="telefono" id="telefono" />
           </div>
 
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" />
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
 
-          <div>
-            <label for="comentario">Dejanos tu mensaje:</label>
-            <textarea id="mensaje" cols="50" rows="10"></textarea>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deja tu Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
 
-          <div>
-            <input type="submit" id="Enviar" />
+          <div class="mb-3 text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
+
         </form>
-      </section>
+      </div>
+
     </main>
 
     <footer class="footer">
