@@ -1,5 +1,3 @@
-Este es un trabajo realizado para brindar el posible sitio web de un centro de rendimiento deportivo.
-el trabajo lo realicé utilizando HTML y CSS, utilizando diversos recursos aprendidos, como grids, flexbox, bootstrap, así como también los conceptos básicos de html y css.
 
 <h1 align="center">Hola 👋, yo soy Matias Bustos</h1>
 <h3 align="center">Un estudiante de programación de Coderhouse</h3>
