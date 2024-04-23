@@ -1,0 +1,24 @@
+.footer{
+        height: 6.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000000;
+    .footer1{
+        h4{
+            color: whitesmoke;
+            margin-left: 1.25rem;
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+    .footer2{
+        margin-right: 5rem;
+        .icono{
+            font-size: 30px;
+            color: white;
+            padding: 10px;
+        }
+    }
+}

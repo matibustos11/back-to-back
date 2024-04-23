@@ -1,0 +1,500 @@
+@media (max-width: 1056px) {
+    main{
+        .novedades {
+            height: 42rem;
+        }
+    }
+
+    .biografia1 p, .biografia2 p, .biografia3 p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 990px) {
+    main{
+        .definicion{
+            .que-es{
+                    width: 40%;
+                h2{
+                    font-size: 3.4rem;
+                }
+                h3{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.6rem;
+                }
+            }
+            .a-quien{
+                    width: 40%;
+                h2{
+                    font-size: 3.4rem;
+                }
+                p{
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+
+.grid-proyectos{
+    .item{
+        img{
+            height: 75%;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.biografia1 img, .biografia2 img {
+    height: 20rem;
+    }
+
+}
+
+
+@media (max-width: 770px){
+    .titulo h1{
+        font-size: 4rem;
+    }
+
+    main{
+        .definicion{
+            .que-es{
+                h2{
+                    font-size: 2.5rem;
+                }
+                h3{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+            .a-quien{
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+    }
+.personalizados h3, .deportivos h3, .lesiones h3, .fisio h3 {
+    font-size: 1.2rem;
+}
+.suplementacion h3, .psicologia h3, .curso-padel h3{
+    font-size: 1.2rem;
+}
+main .novedades .div-novedades .suplementacion img{
+    width: 87%;
+}
+.grid-proyectos{
+    .item{
+        img{
+            height: 60%;
+        }
+        h3{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.9rem;
+        }
+    }
+}
+.nuestros-servicios .carousel .carousel-caption h5 {
+    font-size: 1.8rem; 
+  }
+  .biografia1 p, .biografia2 p, .biografia3 p {
+    font-size: 1rem;
+}
+.biografia1 img, .biografia2 img {
+    height: 15rem;
+}
+.formulario {
+    margin: 2rem 5rem;
+}
+.footer{
+    .footer1{
+        h4{
+            font-size: 1rem;
+        }
+    }
+    .footer2{
+        .icono{
+            font-size: 25px;
+        }
+    }
+}
+}
+@media (max-width: 695px){
+.titulo {
+        height: 11rem;
+        h1{
+            font-size: 3.5rem;
+        }
+    }
+    
+.programas h2 {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+main{
+.novedades{
+        height: 60rem;
+        h2{
+            font-size: 2rem;
+            margin-top: 20px;
+        }
+.div-novedades{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .suplementacion{
+                img{
+                    width: 100%;
+                    padding: 0 12px;
+                }
+            }
+        }
+    }
+}
+
+.nuestros-servicios{
+        .carousel{
+            .carousel-item{
+                img{
+                    height: 25rem;
+                }
+            }
+            .carousel-caption{
+                h5{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px){
+
+    .titulo h1 {
+        font-size: 3rem;
+    }
+
+
+main{
+.definicion{
+    flex-direction: column;
+    .que-es{
+        width: auto;
+    }
+    .a-quien{
+        width: auto;
+        h2{
+            padding-left: 30px;
+        }
+    }
+}
+.programas{
+    .programas1{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .personalizados{
+            margin: 30px 0;
+            width: 70%;
+            img{
+                width: 100%;
+            }
+        }
+        .deportivos{
+            margin: 30px 0;
+            width: 70%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .programas2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .lesiones{
+            margin: 30px 0;
+            width: 70%;
+            img{
+                width: 100%;
+            }
+        }
+        .fisio{
+            margin: 30px 0;
+            width: 70%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.grid-proyectos{
+    .item{
+        img{
+            height: 50%;
+        }
+        h3{
+            font-size: 1.25rem;
+        }
+    }
+}
+.nutricion-definicion{
+    p{
+        font-size: 1.7rem;
+    }
+}
+.biografia1{
+    p{
+        font-size: 0.8rem;
+    }
+    img{
+        height: 11rem;
+    }
+}
+.biografia2{
+    p{
+        font-size: 0.8rem;
+    }
+    img{
+        height: 11rem;
+    }
+}
+.biografia3{
+    p{
+        font-size: 0.8rem;
+    }
+}
+.contactanos p {
+    font-size: 1.5rem;
+}
+}
+.footer{
+    .footer1{
+        h4{
+            font-size: 0.9rem;
+        }
+    }
+    .footer2{
+        margin-right: 2rem;
+        .icono{
+            font-size: 20px;
+        }
+    }
+}
+
+}
+
+@media (max-width: 520px){
+.titulo {
+    height: 10rem;
+    h1{
+        font-size: 2.5rem;
+    }
+    }
+.grid-proyectos{
+    .grid-col1{
+        display: none;
+    }
+
+    .grid-col3{
+        grid-column: span 2;
+    }
+
+    .grid-texto{
+        width: 100%;
+    }
+}
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .formulario {
+        margin: 2rem 2rem;
+    }
+
+    .contactanos p {
+        font-size: 1.3rem;
+    }
+main .nutricion-definicion{
+        p{
+            font-size: 1.5rem;
+        }
+    }
+.nuestros-servicios{
+        .carousel{
+            .carousel-item{
+                img{
+                    height: 20rem;
+                }
+            }
+        }
+    }
+main{
+    .contactanos{
+        p{
+            font-size: 1.3rem;
+        }
+    }
+    .formulario{
+        margin: 2rem 2rem;
+    }
+}
+.footer .footer2 {
+    margin-right: 1rem;
+}
+}
+
+
+@media (max-width: 500px){
+
+
+main{
+    .definicion{
+        .que-es{
+            h2{
+                font-size: 2rem;
+            }
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+        .a-quien{
+            h2{
+                font-size: 2rem;
+            }
+        }
+    }
+.biografia1 {
+        flex-direction: column-reverse;
+    }
+
+.biografia2 {
+        flex-direction: column;
+    }
+}
+.personalizados h3, .deportivos h3, .lesiones h3, .fisio h3 {
+    font-size: 1rem;
+}
+}
+
+
+
+@media (max-width:400px){
+.titulo h1 {
+        font-size: 2rem;
+    }
+
+    main{
+        .definicion{
+            .que-es{
+                h2{
+                    font-size: 1.8rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+            }
+            .a-quien{
+                h2{
+                    font-size: 1.8rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+.programas {
+        margin: 0.9rem;
+    }
+.novedades {
+        height: 50rem;
+        .div-novedades{
+            .suplementacion{
+                img{
+                    width: 75%;
+                    padding: 0;
+                }
+            }
+            .psicologia{
+                padding: 0;
+                img{
+                    width: 75%;
+                    padding-top: 0.9rem;
+                }
+            }
+            .curso-padel{
+                padding: 0;
+                img{
+                    width: 75%;
+                    padding-top: 0.9rem;
+                }
+            }
+        }
+    }
+.grid-proyectos{
+    .item{
+        h3{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+     .grid-texto{
+            width: 95%;
+}
+}
+.nutricion-definicion p {
+        font-size: 1rem;
+    }
+.nuestros-servicios{
+        .carousel{
+            .carousel-item{
+                img{
+                    height: 16rem;
+                }
+            }
+        }
+    }
+.contactanos p{
+    font-size: 1.1rem;
+}
+.formulario {
+    margin: 2rem 1rem;
+    }
+}
+.footer{
+    .footer1{
+        h4{
+            font-size: 0.8rem;
+        }
+    }
+    .footer2{
+        margin-right: 0.1rem;
+        .icono{
+            font-size: 13px;
+        }
+    }
+}
+}
+
+
+
+
