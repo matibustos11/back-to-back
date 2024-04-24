@@ -19,9 +19,9 @@
                     padding-top: 2rem;
                     text-align: center;
                     font-size: 2.5rem;
-                    color: #5eff1e;
+                    color: nth($colores,1);
                     font-weight: bolder;
-                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-family: $h2font;
                 }
                 .carousel{
                             width: 66%;
@@ -39,6 +39,7 @@
                                     padding: 1rem;
                                     border-radius: 2rem;
                                     color: #ffffffd5;
+                                    font-family: $h3font;
                                     font-size: 2rem;
                                     text-shadow: 1px 1px;
                                     background-color: black;

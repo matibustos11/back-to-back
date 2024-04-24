@@ -1,7 +1,5 @@
 .biografia1{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include flex (flex, space-around, center, row, nowrap);
             gap: 2rem;
             margin-top: 2rem;
     p{
@@ -9,7 +7,6 @@
         padding: 0 1rem;
         color: white;
         font-weight: bold;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         background: black;
         opacity: 0.8;
         border-radius: 1rem;
@@ -22,9 +19,7 @@
 }
 
 .biografia2{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include flex (flex, space-around, center, row, nowrap);
             gap: 2rem;
             margin-top: 2rem;
     p{
@@ -32,7 +27,6 @@
         padding: 0 1rem;
         color: white;
         font-weight: bold;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         background: black;
         opacity: 0.8;
         border-radius: 1rem;
@@ -45,17 +39,13 @@
 }
 
 .biografia3{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex (flex, flex-start, center, column, wrap);
             gap: 2rem;
-            flex-wrap: wrap;
     p{
         font-size: 2rem;
         padding: 0 1rem;
         color: white;
         font-weight: bold;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         background: black;
         opacity: 0.8;
         border-radius: 1rem;
