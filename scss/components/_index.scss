@@ -140,6 +140,10 @@ main{
                                     @extend %flex-center;
                                     flex-direction: column;
                                     justify-content: center;
+                                    &:hover {
+                                        transform: scale(1.1);
+                                        cursor: pointer;
+                                    }
                                 img{
                                     width: 77%;
                                     height: 65%;
@@ -156,6 +160,10 @@ main{
                                 border: black 4px solid;
                                 padding: 0.9rem;
                                 border-radius: 1rem;
+                                &:hover {
+                                    transform: scale(1.1);
+                                    cursor: pointer;
+                                }
                             img{
                                 width: 95%;
                                 height: 65%;
@@ -172,6 +180,10 @@ main{
                                 border: black 4px solid;
                                 padding: 0.9rem;
                                 border-radius: 1rem;
+                                &:hover {
+                                    transform: scale(1.1);
+                                    cursor: pointer;
+                                }
                             img{
                                 width: 95%;
                                 height: 65%;

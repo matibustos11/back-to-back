@@ -49,6 +49,8 @@ main .programas .programas-flex, main .novedades .div-novedades .suplementacion,
       color: white !important;
       padding: 0.3rem 1rem;
       text-align: center; }
+      .barra .navbar ul li a:hover {
+        transform: scale(1.4); }
 
 .titulo {
   height: 13rem;
@@ -186,6 +188,9 @@ main .novedades {
       border-radius: 1rem;
       flex-direction: column;
       justify-content: center; }
+      main .novedades .div-novedades .suplementacion:hover {
+        transform: scale(1.1);
+        cursor: pointer; }
       main .novedades .div-novedades .suplementacion img {
         width: 77%;
         height: 65%; }
@@ -198,6 +203,9 @@ main .novedades {
       border: black 4px solid;
       padding: 0.9rem;
       border-radius: 1rem; }
+      main .novedades .div-novedades .psicologia:hover {
+        transform: scale(1.1);
+        cursor: pointer; }
       main .novedades .div-novedades .psicologia img {
         width: 95%;
         height: 65%; }
@@ -210,6 +218,9 @@ main .novedades {
       border: black 4px solid;
       padding: 0.9rem;
       border-radius: 1rem; }
+      main .novedades .div-novedades .curso-padel:hover {
+        transform: scale(1.1);
+        cursor: pointer; }
       main .novedades .div-novedades .curso-padel img {
         width: 95%;
         height: 65%; }
