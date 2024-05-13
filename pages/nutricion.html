@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="../css/estilos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Rubik+Burned&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" href="../img/faviconbtb.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="description" content="Bienvenidos a Back to back, un centro de alto rendimiento deportivo diseñado para acompañarte en todo el proceso de buscar tu mejor versión. Anímate a descubrir nuevos métodos de entrenamiento para mejorar en tu disciplina.">
     <meta name="keywords" content="Centro deportivo, deporte, deportistas, nutricion, nutrición, suplementación, entrenar, deportista, back to back">
     <meta name="og:type" content="web-site">
     <meta name="og:title" content="Back To Back | Centro de alto rendimiento deportivo">
     <meta name="og:url" content="https://backtobackcenter.netlify.app/">
-    <meta name="og:image" content="">
     <meta name="og:description" content="Bienvenidos a Back to back, un centro de alto rendimiento deportivo diseñado para acompañarte en todo el proceso de buscar tu mejor versión. Anímate a descubrir nuevos métodos de entrenamiento para mejorar en tu disciplina.">
   </head>
   <body>
@@ -54,11 +54,11 @@
       </div>
     </header>
     <main>
-      <section class="nutricion-definicion">
+      <section class="nutricion-definicion" data-aos="fade-up" data-aos-duration="1000">
         <img
-          src="https://concepto.de/wp-content/uploads/2015/03/nutricion-1-e1550713442289.jpg"
-          alt="Nutricion 1"
-        />
+          src="../img/banner-nutricion.jpg"
+          alt="Nutricion 1"/>
+      <div data-aos="fade-up" data-aos-duration="1000">
         <p>
           Con el propósito de mejorar la calidad de vida de nuestros clientes,
           brindamos servicios de nutrición. Nos enfocamos en fomentar hábitos
@@ -70,6 +70,7 @@
           general de nuestros clientes, brindándoles las herramientas necesarias
           para alcanzar sus metas y mantener un estilo de vida saludable.
         </p>
+      </div>
       </section>
 
       <section class="nuestros-servicios">
@@ -84,19 +85,19 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://static.eldiario.es/clip/393e69b7-8de1-4107-b32c-a456581b112f_16-9-discover-aspect-ratio_default_0.jpg" class="d-block w-100" alt="Plan alimenticio">
+              <img src="../img/carrusel1.jpg" class="d-block w-100" alt="Plan alimenticio">
               <div class="carousel-caption d-md-block">
                 <h5>Planes Alimenticios</h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="https://www.nutrievidence.es/wp-content/uploads/2017/12/IMG_20150617_172536.jpg" class="d-block w-100" alt="Antropometria">
+              <img src="../img/carrusel2.jpg" class="d-block w-100" alt="Antropometria">
               <div class="carousel-caption d-md-block">
                 <h5>Servicio de Antropometria</h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="https://estaticos-cdn.prensaiberica.es/clip/5bb7c8fb-b10c-4ce2-8847-cc4199a209b4_alta-libre-aspect-ratio_default_0.jpg" class="d-block w-100" alt="Suplementacion">
+              <img src="../img/carrusel3.jpg" class="d-block w-100" alt="Suplementacion">
               <div class="carousel-caption d-md-block">
                 <h5>Asesoría de Suplementación</h5>
               </div>
@@ -122,12 +123,16 @@
       </div>
 
       <div class="footer2">
-        <i class="bi bi-whatsapp icono"></i>
-        <i class="bi bi-instagram icono"></i>
-        <i class="bi bi-twitter-x icono"></i>
-        <i class="bi bi-youtube icono"></i>
+        <a href="https://web.whatsapp.com" target="_blank"><i class="bi bi-whatsapp icono"></i></a>
+        <a href="https://www.instagram.com/matibustos11/" target="_blank"><i class="bi bi-instagram icono"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x icono"></i></a>
+        <a href="https://www.youtube.com/@baltazartaibo3666" target="_blank"><i class="bi bi-youtube icono"></i></a>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -69,17 +69,14 @@ main .programas .programas-flex, main .novedades .div-novedades .suplementacion,
 main .definicion {
   height: auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 6.25rem;
-  background-image: url(https://img.freepik.com/fotos-premium/gimnasio-oscuro-luces-rojas-fondo-negro_876956-1224.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-color: black;
+  opacity: 0.8; }
   main .definicion .que-es {
-    margin: 3.1rem 2.5rem;
+    margin: 3.1rem 3.5rem;
     padding-right: 1.9rem;
     width: 45%; }
     main .definicion .que-es h2 {
@@ -95,11 +92,11 @@ main .definicion {
       color: white; }
   main .definicion .a-quien {
     margin: 3.1rem 0;
-    padding-right: 1.9rem;
+    padding-right: 1.5rem;
     width: 45%; }
     main .definicion .a-quien h2 {
       font-size: 4.5rem;
-      color: white;
+      color: #d3ff10;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
       padding-left: 2rem; }
     main .definicion .a-quien p {
@@ -129,13 +126,15 @@ main .programas {
     flex-wrap: wrap; }
     main .programas .programas1 .personalizados img {
       width: 80%;
-      height: 65%; }
+      height: 65%;
+      border-radius: 2rem; }
     main .programas .programas1 .personalizados h3 {
       color: #d3ff10;
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
     main .programas .programas1 .deportivos img {
       width: 80%;
-      height: 65%; }
+      height: 65%;
+      border-radius: 2rem; }
     main .programas .programas1 .deportivos h3 {
       color: #d3ff10;
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
@@ -147,13 +146,15 @@ main .programas {
     flex-wrap: wrap; }
     main .programas .programas2 .lesiones img {
       width: 80%;
-      height: 65%; }
+      height: 65%;
+      border-radius: 2rem; }
     main .programas .programas2 .lesiones h3 {
       color: #d3ff10;
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
     main .programas .programas2 .fisio img {
       width: 80%;
-      height: 65%; }
+      height: 65%;
+      border-radius: 2rem; }
     main .programas .programas2 .fisio h3 {
       color: #d3ff10;
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
@@ -164,7 +165,7 @@ main .programas {
 
 main .novedades {
   height: 24.4rem;
-  background-image: url(https://us.123rf.com/450wm/naropano/naropano1606/naropano160600509/58727522-textura-de-fondo-oscuro-en-blanco-para-el-dise%C3%B1o-bordes-oscuros.jpg);
+  background-image: url(../img/fondo-novedades.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -245,7 +246,8 @@ main .novedades {
       box-shadow: 5px 5px 5px black;
       width: 100%;
       height: 100%;
-      object-fit: cover; }
+      object-fit: cover;
+      border-radius: 2rem; }
     .grid-proyectos .item h3 {
       color: #d3ff10;
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -267,7 +269,9 @@ main .novedades {
   margin-top: 1.9rem; }
   .nutricion-definicion img {
     padding: 1.25rem;
-    width: 100%; }
+    width: 100%;
+    height: auto;
+    max-height: 37.5rem; }
   .nutricion-definicion p {
     padding: 0 1rem;
     color: white;
@@ -393,6 +397,8 @@ main .novedades {
       font-size: 30px;
       color: white;
       padding: 10px; }
+      .footer .footer2 .icono:hover {
+        color: #95e75f; }
 
 @media (max-width: 1056px) {
   main .novedades {

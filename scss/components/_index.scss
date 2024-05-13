@@ -1,14 +1,15 @@
 main{
     .definicion{
         height: auto;
-        @include flex (flex, flex-start, center, row, wrap);
-        margin-top: 6.25rem;
-        background-image: url(https://img.freepik.com/fotos-premium/gimnasio-oscuro-luces-rojas-fondo-negro_876956-1224.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        @include flex (flex, space-between, center, row, wrap);
+        // background-image: url(https://img.freepik.com/fotos-premium/gimnasio-oscuro-luces-rojas-fondo-negro_876956-1224.jpg);
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-size: cover;
+        background-color: black;
+        opacity: 0.8;
             .que-es{
-                    margin: 3.1rem 2.5rem;
+                    margin: 3.1rem 3.5rem;
                     padding-right: 1.9rem;
                     width: 45%;
                     h2{
@@ -28,11 +29,11 @@ main{
             }
             .a-quien{
                     margin: 3.1rem 0;
-                    padding-right: 1.9rem;
+                    padding-right: 1.5rem;
                     width: 45%;
                     h2{
                         font-size: 4.5rem;
-                        color: nth($colores,3);
+                        color: nth($colores,4);
                         font-family: $h2font;
                         padding-left: 2rem;
                     }
@@ -65,6 +66,7 @@ main{
                         img{
                             width: 80%;
                             height: 65%;
+                            border-radius: 2rem;
                         }
                         h3{
                             color: nth($colores,4);
@@ -75,6 +77,7 @@ main{
                         img{
                             width: 80%;
                             height: 65%;
+                            border-radius: 2rem;
                         }
                         h3{
                             color: nth($colores,4);
@@ -88,6 +91,7 @@ main{
                         img{
                             width: 80%;
                             height: 65%;
+                            border-radius: 2rem;
                         }
                         h3{
                             color: nth($colores,4);
@@ -98,6 +102,7 @@ main{
                         img{
                             width: 80%;
                             height: 65%;
+                            border-radius: 2rem;
                         }
                         h3{
                             color: nth($colores,4);
@@ -114,7 +119,7 @@ main{
     }
     .novedades{
                 height: 24.4rem;
-                background-image: url(https://us.123rf.com/450wm/naropano/naropano1606/naropano160600509/58727522-textura-de-fondo-oscuro-en-blanco-para-el-dise%C3%B1o-bordes-oscuros.jpg);
+                background-image: url(../img/fondo-novedades.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;

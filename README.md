@@ -1,6 +1,6 @@
 
 <h1 align="center">Hola 👋, yo soy Matias Bustos</h1>
-<h3 align="center">Un estudiante de programación de Coderhouse</h3>
+<h3 align="center">Un estudiante de Desarrollo Web de Coderhouse</h3>
 
 - 🔭 Estoy trabajando en **Back to back**
 
@@ -8,7 +8,7 @@
 
 <p align="left">
 Este es un trabajo realizado para brindar el posible sitio web de un centro de rendimiento deportivo. <br>
-el trabajo lo realicé utilizando HTML y CSS, utilizando diversos recursos aprendidos, como grids, flexbox, bootstrap, así como también los conceptos básicos de html y css.
+El trabajo lo realicé utilizando HTML y CSS, a través de diversos recursos aprendidos, como grids, flexbox, bootstrap, así como también los conceptos básicos de programación.
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
